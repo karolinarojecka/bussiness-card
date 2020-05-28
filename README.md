@@ -1,2 +1,4 @@
 # bussiness-card
-*Some about me*
+*some about me*
+
+***This site was built using [GitHub Pages](https://karolinarojecka.github.io/bussiness-card/).***
