@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section {
+  width: 624px;
+  height: 320px;
+  background-color: #fffeef;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 0px 5px 3px 0px rgba(184, 184, 184, 0.561); }
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin-left: 32px;
+  margin-top: 32px;
+  box-shadow: 0px 5px 3px 0px #b8b8b8;
+  flex-shrink: 0;
+  border-radius: 20px; }
+
+.article {
+  padding: 32px; }
+
+.article__title {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 36px;
+  margin: 0;
+  letter-spacing: 3px; }
+
+.article__subtitle {
+  font-family: 'Abril Fatface', cursive;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 13px;
+  color: #a8a7a7;
+  margin-bottom: 32px; }
+
+.article__description, .article__link-web {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  text-align: justify;
+  font-size: 0.89em; }
+
+.article__description--experience {
+  color: #f09433;
+  font-weight: 400; }
+
+.article__description--student {
+  color: #bc1888;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #cc2366; }
