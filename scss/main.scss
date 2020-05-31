@@ -41,41 +41,44 @@ body {
 
 .article {
     padding: 32px;
-}
-
-.article__title {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 36px;
-    margin: 0;
-    letter-spacing: 3px;
-}
-
-.article__subtitle {
-    font-family: 'Abril Fatface', cursive;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 13px;
-    color: rgb(168, 167, 167);
-    margin-bottom: 32px;
-}
-
-.article__description, .article__link-web {
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
-    letter-spacing: 1px;
-    line-height: 1.5em;
-    text-align: justify;
-    font-size: 0.89em;
-}
-
-.article__description--experience {
-    color: #f09433;
-    font-weight: 400;
-}
-
-.article__description--student {
-    color: #bc1888;
-    font-weight: 400;
+    &__title {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 36px;
+        margin: 0;
+        letter-spacing: 3px;
+    };
+    &__subtitle {
+        font-family: 'Abril Fatface', cursive;
+        font-style: italic;
+        font-weight: 100;
+        font-size: 13px;
+        color: rgb(168, 167, 167);
+        margin-bottom: 32px;
+    };
+    &__link-web {
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        text-align: justify;
+        font-size: 0.89em;
+    };
+    &__description {
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        text-align: justify;
+        font-size: 0.89em;
+        &--experience {
+            color: #f09433;
+            font-weight: 400;
+        };
+        &--student {
+            color: #bc1888;
+            font-weight: 400;
+        };
+    };
 }
 
 a {
